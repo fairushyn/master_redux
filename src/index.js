@@ -1,5 +1,6 @@
 import './styles.css'
 import {applyMiddleware, createStore} from 'redux'
+import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 import logger from 'redux-logger'
 import {rootReducer} from './redux/rootReducer'
@@ -26,8 +27,11 @@ const themeBtn = document.getElementById('theme');
 
 
 const store = createStore(
-    rootReducer,
-    applyMiddleware(thunk, logger));
+    rootReducer, composeWithDevTools(
+        applyMiddleware(thunk, logger),
+        // other store enhancers if any
+    )
+);
 
 addBtn.addEventListener('click', () => {
     store.dispatch(increment());
@@ -43,8 +47,8 @@ asyncBtn.addEventListener('click', () => {
 
 themeBtn.addEventListener('click', () => {
     const newTheme = document.body.classList.contains('light')
-    ? 'dark'
-    : 'light'
+        ? 'dark'
+        : 'light'
     store.dispatch(changeTheme(newTheme))
 });
 
