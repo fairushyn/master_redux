@@ -1,0 +1,204 @@
+repo_name: fairushyn/master_redux
+report_id: 614f29d8f823fd0c75b6e79e6d8f0721
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-13T18:09:28+00:00'
+requested_by: fairushyn
+provider: github
+branch: main
+detected_tools_count: 15
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/fairushyn/master_redux
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/fairushyn/master_redux
+  detection_source: Repo Metadata
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.0.5
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-21 07:05:06.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-20 11:59:20.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-21 07:05:06.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/fairushyn/master_redux
+  detection_source: Repo Metadata
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.42.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-20 11:59:20.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-20 11:59:20.000000000 Z
+- name: html-webpack-plugin
+  description: Simplifies creation of HTML files to serve your webpack bundles
+  package_url: https://www.npmjs.com/html-webpack-plugin
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-20 11:59:20.000000000 Z
+- name: redux-devtools
+  description: Redux DevTools with hot reloading and time travel
+  package_url: https://www.npmjs.com/redux-devtools
+  version: 3.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17051/default_50357c490b205882dcfb608fd3c74b446186c21e.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-21 07:05:06.000000000 Z
+- name: redux-devtools-extension
+  description: Wrappers for Redux DevTools Extension
+  package_url: https://www.npmjs.com/redux-devtools-extension
+  version: 2.13.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17039/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-21 07:05:06.000000000 Z
+- name: redux-logger
+  description: Logger for Redux
+  package_url: https://www.npmjs.com/redux-logger
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16512/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-21 07:05:06.000000000 Z
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-20 11:59:20.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.3.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-20 11:59:20.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 3.10.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: https://github.com/fairushyn/master_redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Roman Fairushyn
+  last_updated_on: 2021-04-21 07:05:06.000000000 Z
